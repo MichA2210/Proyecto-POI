@@ -44,7 +44,8 @@
             android:layout_weight="1"
             android:background="#00FFFFFF"
             android:paddingLeft="5sp"
-            app:icon="@android:drawable/ic_dialog_info" />
+            app:icon="@android:drawable/ic_dialog_info"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     </LinearLayout>
 
@@ -61,7 +62,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#00FFFFFF"
-            app:icon="@android:drawable/ic_lock_idle_charging" />
+            app:icon="@android:drawable/ic_lock_idle_charging"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <EditText
             android:layout_width="match_parent"
@@ -72,7 +74,8 @@
             android:background="@drawable/text_bg"
             android:backgroundTintMode="src_atop"
             android:hint="Escribe un mensaje"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            tools:ignore="TouchTargetSizeCheck" />
 
 
     </LinearLayout>
